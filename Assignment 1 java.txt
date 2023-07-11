@@ -1,0 +1,58 @@
+1.What is the difference between Compiler and Interpreter
+A compiler translates the entire source code into machine code or bytecode before execution, while an interpreter executes the source code directly.
+A compiled program typically generates an executable file, while an interpreted program relies on an interpreter to execute the code.
+Compilers often provide performance optimizations during the compilation process, while interpreters can provide more flexibility and dynamic features during runtime.
+
+2.What is the difference between JDK, JRE, and JVM?
+JDK: Used by developers for Java application development, includes the Java compiler, development tools, and JRE.
+JRE: Used by end-users to run Java applications, includes the JVM and necessary libraries for executing Java programs.
+JVM: Executes Java bytecode, providing platform independence and handling memory management, garbage collection, and other runtime operations.
+
+3.How many types of memory areas are allocated by JVM?
+Class(Method) Area
+Heap
+Stack
+Program Counter Register
+Native Method Stack
+
+4.What is JIT compiler?
+JIT stands for "Just-In-Time." In the context of programming languages and runtime environments, a JIT compiler is a type of compiler that dynamically compiles and optimizes code at runtime, just before it is executed.
+
+5.What are the various access specifiers in Java?
+There are four access specifiers in Java
+public
+private
+protected
+default
+
+6.What is a compiler in Java?
+In Java, a compiler is a software program that translates the Java source code, written by developers in a high-level programming language, into a lower-level language called bytecode. The compiler is responsible for converting human-readable Java code into a format that can be executed by the Java Virtual Machine (JVM).
+
+7.Explain the types of variables in Java?
+Local Variables: Local variables are declared within a method, constructor, or block. They are only accessible within the scope where they are declared. Local variables must be initialized before they can be used.
+
+Instance Variables: Instance variables, also known as non-static variables or member variables, are declared within a class but outside any method, constructor, or block. Each instance of the class has its own copy of instance variables. Instance variables are initialized with default values if not explicitly initialized.
+
+Class Variables (Static Variables): Class variables, also known as static variables, are declared within a class but outside any method, constructor, or block using the static keyword. They are shared among all instances of the class. Class variables are initialized with default values if not explicitly initialized.
+
+Parameters: Parameters are variables specified in method or constructor declarations. They receive values when the method or constructor is invoked, and these values are used within the method or constructor.
+
+8.What are the Datatypes in Java?
+Primitive data types - includes byte , short , int , long , float , double , boolean and char.
+
+9.What are the identifiers in java?
+In Java, identifiers are names used to identify classes, variables, methods, labels, and other programming elements. 
+
+10.Explain the architecture of JVM
+The Java Virtual Machine (JVM) is an integral part of the Java platform and is responsible for executing Java bytecode. It provides a runtime environment in which Java programs can run independently of the underlying hardware and operating system. The architecture of the JVM can be divided into three main components: class loader, runtime data areas, and execution engine.
+
+
+
+
+
+
+
+
+
+
+
